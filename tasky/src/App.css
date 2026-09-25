@@ -75,4 +75,12 @@ button {
   margin-top: 10px;
 }
 
+.deleteButton {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: red;
+}
+
+
 
