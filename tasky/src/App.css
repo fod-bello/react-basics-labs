@@ -59,6 +59,23 @@ div {
   font-size: 1em;
   margin-top: 20px;
   margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.priority.low {
+  background-color: green;
+  color: white;
+}
+
+.priority.medium {
+  background-color: goldenrod;
+  color: white;
+}
+
+.priority.high {
+  background-color: red;
+  color: white;
 }
 button {
   border: none;
@@ -111,6 +128,16 @@ form {
   text-align: left;
   width: 50%;
   margin: auto;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 
