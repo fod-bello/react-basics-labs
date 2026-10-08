@@ -4,7 +4,7 @@ body {
   font-weight: 400;
 }
 
-h1 {
+/* h1 {
   text-align: center;
   background-color: grey;
   color: white;
@@ -12,16 +12,16 @@ h1 {
   margin: 8px 0;
   border: none;
   border-radius: 4px;
-}
+} */
 
-div {
+/* div {
   padding: 20px;
 }
 
-.container {
+.container{
   text-align: center;
-}
-
+} */
+/* 
 .card {
   display: inline-block;
   vertical-align: top;
@@ -30,7 +30,7 @@ div {
   color: white;
   text-align: center;
   width: 180px;
-  height: 350px;
+  height: 240px;
   margin: 10px;
   padding: 10px;
   position: relative;
@@ -38,45 +38,18 @@ div {
 
 .title {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.2em; 
 }
 
-/* Description section styles */
 .description {
-	width: 100%;
-	max-width: 42rem;
-	margin: 0 auto;
-	padding: 1rem;
-	color: white;
-	font-size: 1rem;
   font-style: italic;
-	line-height: 1.6;
-  text-align: left;
 }
 
 .priority {
   font-weight: bold;
-  font-size: 1em;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  padding: 5px;
   border-radius: 5px;
 }
 
-.priority.low {
-  background-color: green;
-  color: white;
-}
-
-.priority.medium {
-  background-color: goldenrod;
-  color: white;
-}
-
-.priority.high {
-  background-color: red;
-  color: white;
-}
 button {
   border: none;
   border-radius: 3px;
@@ -88,8 +61,10 @@ button {
 }
 
 .doneButton {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
   color: green;
-  margin-top: 10px;
 }
 
 .deleteButton {
@@ -97,9 +72,9 @@ button {
   bottom: 5px;
   right: 5px;
   color: red;
-}
-
-input[type=text], input[type=date] {
+} */
+/* 
+input[type=text], input[type=date], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -128,17 +103,4 @@ form {
   text-align: left;
   width: 50%;
   margin: auto;
-}
-
-select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-
-
+} */
